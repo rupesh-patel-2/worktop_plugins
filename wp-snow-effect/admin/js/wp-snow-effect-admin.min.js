@@ -1,0 +1,1 @@
+!function(n){"use strict";n(window).load(function(){function i(){alert("Sorry...\n\nThis functionality is available in PRO version only.\n\nPlease consider to upgrade.")}var e;n("#settings_flake_type").focus(function(){e=this.value}).change(function(){this.value<100&&(i(),this.value=e)}),n("#settings_on_spec_page").keyup(function(){i(),this.value=""})})}(jQuery);

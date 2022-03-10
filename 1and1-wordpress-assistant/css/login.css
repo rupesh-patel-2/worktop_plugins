@@ -1,0 +1,161 @@
+body.oneandone .card-container .card-login .card-content {
+  padding-bottom: 0;
+}
+body.oneandone .card-container .card-login div#login h1 {
+  display: none;
+}
+body.oneandone .card-container .card-login div#login p {
+  margin: 0;
+}
+body.oneandone .card-container .card-login div#login p.message,
+body.oneandone .card-container .card-login div#login div#login_error {
+  margin-bottom: 32px;
+}
+body.oneandone .card-container .card-login div#login div#login_error {
+  color: #f44336;
+}
+body.oneandone .card-container .card-login div#login p.submit {
+  text-align: left;
+  float: right;
+  margin-right: -50px;
+  padding-top: 16px;
+}
+body.oneandone .card-container .card-login div#login p#nav {
+  text-align: left;
+  float: right;
+  padding-top: 16px;
+}
+body.oneandone .card-container .card-login div#login p#nav a {
+  cursor: pointer;
+  line-height: 1.4;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #176ff4;
+  background: transparent none;
+  outline: 0 none;
+  border: 0 none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  margin: 0;
+  color: #999999;
+}
+body.oneandone .card-container .card-login div#login p#nav a.disabled,
+body.oneandone .card-container .card-login div#login p#nav a:disabled {
+  color: #cccccc;
+  cursor: not-allowed;
+}
+body.oneandone .card-container .card-login div#login p#backtoblog {
+  text-align: left;
+  padding-top: 16px;
+  margin-left: -50px;
+}
+body.oneandone .card-container .card-login div#login p#backtoblog a {
+  cursor: pointer;
+  line-height: 1.4;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  color: #176ff4;
+  background: transparent none;
+  outline: 0 none;
+  border: 0 none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  margin: 0;
+  color: #999999;
+}
+body.oneandone .card-container .card-login div#login p#backtoblog a.disabled,
+body.oneandone .card-container .card-login div#login p#backtoblog a:disabled {
+  color: #cccccc;
+  cursor: not-allowed;
+}
+body.oneandone .card-container .card-login div#login p label[for=pass1] {
+  display: none;
+}
+body.oneandone .card-container .card-login div#login .password-input-wrapper {
+  position: relative;
+}
+body.oneandone .card-container .card-login div#login .password-input-wrapper #pass1-text,
+body.oneandone .card-container .card-login div#login .password-input-wrapper .pw-weak,
+body.oneandone .card-container .card-login div#login .password-input-wrapper .show-password #pass1 {
+  display: none;
+}
+body.oneandone .card-container .card-login div#login .password-input-wrapper .show-password #pass1-text {
+  display: inline-block;
+}
+body.oneandone .card-container .card-login div#login .password-input-wrapper .form-input {
+  margin-bottom: 0;
+  display: inline-block;
+  width: calc(100% - 25px);
+}
+body.oneandone .card-container .card-login div#login .password-input-wrapper .form-input input[type=text],
+body.oneandone .card-container .card-login div#login .password-input-wrapper .form-input input[type=password] {
+  box-sizing: border-box;
+  padding: 0 25px;
+}
+body.oneandone .card-container .card-login div#login .password-input-wrapper .form-input .short + .underline,
+body.oneandone .card-container .card-login div#login .password-input-wrapper .form-input .bad + .underline {
+  background: #f44336;
+}
+body.oneandone .card-container .card-login div#login .password-input-wrapper .form-input .good + .underline {
+  background: orange;
+}
+body.oneandone .card-container .card-login div#login .password-input-wrapper .form-input .strong + .underline {
+  background: mediumseagreen;
+}
+body.oneandone .card-container .card-login div#login .password-input-wrapper .button.wp-hide-pw {
+  color: #bbbbbb;
+  display: inline-block;
+  position: relative;
+  margin-left: -25px;
+  height: 20px;
+  width: 20px;
+}
+body.oneandone .card-container .card-login div#login #pass-strength-result,
+body.oneandone .card-container .card-login div#login #reg_passmail {
+  color: #bbbbbb;
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 1.2em;
+}
+body.oneandone .card-container .card-login div#login #pass-strength-result.short,
+body.oneandone .card-container .card-login div#login #reg_passmail.short,
+body.oneandone .card-container .card-login div#login #pass-strength-result.bad,
+body.oneandone .card-container .card-login div#login #reg_passmail.bad {
+  color: #f44336;
+}
+body.oneandone .card-container .card-login div#login #pass-strength-result.good,
+body.oneandone .card-container .card-login div#login #reg_passmail.good {
+  color: orange;
+}
+body.oneandone .card-container .card-login div#login #pass-strength-result.strong,
+body.oneandone .card-container .card-login div#login #reg_passmail.strong {
+  color: mediumseagreen;
+}
+body.oneandone .card-container .card-login div#login form#registerform .form-input.user_email {
+  margin-bottom: 0;
+}

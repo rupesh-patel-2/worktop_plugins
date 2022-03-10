@@ -1,0 +1,734 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WE Hindi Language\n"
+"POT-Creation-Date: 2019-12-05 17:00+0530\n"
+"PO-Revision-Date: 2019-12-05 17:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. translators: 1: The rating
+#: featured-plugins/featured-plugins.php:87
+#, php-format
+msgid "%s rating"
+msgstr "%s रेटिंग"
+
+#: featured-plugins/featured-plugins.php:101
+msgid "Get More Free WordPress Plugin From A WP Life"
+msgstr "A WP Life से अधिक मुक्त WordPress प्लगइन प्राप्त करें"
+
+#. translators: 1: Plugin name and version.
+#: featured-plugins/featured-plugins.php:139
+msgid "More Details"
+msgstr "अधिक जानकारी"
+
+#. translators: 1: Plugin name and version.
+#: featured-plugins/featured-plugins.php:148
+msgid "Install Now"
+msgstr "अभी स्थापित करें"
+
+#. translators: 1: Plugin name and version
+#: featured-plugins/featured-plugins.php:154
+msgid "Update Now"
+msgstr "अभी अद्यतन करें"
+
+#: featured-plugins/featured-plugins.php:196
+msgid "By "
+msgstr "द्वारा"
+
+#: featured-plugins/featured-plugins.php:217
+msgid "Last Updated:"
+msgstr "आखरी अपडेट:"
+
+#: weather-effect-settings-page.php:5
+msgid "Weather Effect"
+msgstr "वेदर इफ्फेक्ट सेटिंग्स"
+
+#: weather-effect-settings-page.php:6
+msgid "More Free Plugins"
+msgstr "मुफ्त प्लगइन्स"
+
+#: weather-effect-settings-page.php:60
+msgid "Configure Settings"
+msgstr "सेटिंग्स कॉन्फ़िगर करें"
+
+#: weather-effect-settings-page.php:64
+msgid "Select A Weather Or Occasion"
+msgstr "एक मौसम या अवसर का चयन करें"
+
+#: weather-effect-settings-page.php:67
+msgid "Christmas"
+msgstr "क्रिसमस"
+
+#: weather-effect-settings-page.php:68
+msgid "Winter"
+msgstr "सर्दी"
+
+#: weather-effect-settings-page.php:69
+msgid "Autumn"
+msgstr "पतझड़"
+
+#: weather-effect-settings-page.php:70
+msgid "Spring"
+msgstr "वसंत"
+
+#: weather-effect-settings-page.php:71
+msgid "Summer"
+msgstr "गर्मी"
+
+#: weather-effect-settings-page.php:72
+msgid "Rain"
+msgstr "बारिश"
+
+#: weather-effect-settings-page.php:73
+msgid "Halloween"
+msgstr "हैलोवीन"
+
+#: weather-effect-settings-page.php:74
+msgid "Thanks Giving"
+msgstr "थैंक्सगिविंग"
+
+#: weather-effect-settings-page.php:75
+msgid "Valentine"
+msgstr "वैलेंटाइन"
+
+#: weather-effect-settings-page.php:76
+msgid "New Year"
+msgstr "नव वर्ष"
+
+#: weather-effect-settings-page.php:367
+msgid "Please wait..."
+msgstr "कृपया प्रतीक्षा करें..."
+
+#: weather-effect-settings-page.php:369
+msgid "Save"
+msgstr "संचय"
+
+#: weather-effect-settings-page.php:370
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+#: weather-effect-settings-page.php:377
+msgid "Review Appeal"
+msgstr "समीक्षा अपील"
+
+#: weather-settings/autumn-settings.php:4
+msgid "Autumn Fall"
+msgstr "शरद ऋतु"
+
+#: weather-settings/autumn-settings.php:8
+msgid "Autumn Effect Settings"
+msgstr "शरद ऋतु प्रभाव सेटिंग्स"
+
+#: weather-settings/autumn-settings.php:16
+msgid "1. Autumn Leafs"
+msgstr "1. शरद ऋतु पत्तियां"
+
+#: weather-settings/autumn-settings.php:20
+msgid "Select Autumn Falling Leaf"
+msgstr "शरद ऋतु गिरने वाले पत्ता का चयन करें"
+
+#: weather-settings/autumn-settings.php:23
+msgid "Leaf 1"
+msgstr "पत्ता 1"
+
+#: weather-settings/autumn-settings.php:24
+msgid "Leaf 2"
+msgstr "पत्ता 2"
+
+#: weather-settings/autumn-settings.php:25
+msgid "Leaf 3"
+msgstr "पत्ता 3"
+
+#: weather-settings/autumn-settings.php:33
+#: weather-settings/christmas-snow-settings.php:140
+#: weather-settings/christmas-snow-settings.php:200
+#: weather-settings/halloween-settings.php:115
+#: weather-settings/new-year-settings.php:53
+#: weather-settings/rainy-settings.php:64
+#: weather-settings/spring-settings.php:28
+#: weather-settings/summer-settings.php:47
+#: weather-settings/thanks-giving-settings.php:31
+#: weather-settings/valentine-settings.php:72
+msgid "2. Minimum Fall Size On page"
+msgstr "2. पृष्ठ पर न्यूनतम गिरने का आकार"
+
+#: weather-settings/autumn-settings.php:41
+#: weather-settings/christmas-snow-settings.php:148
+#: weather-settings/christmas-snow-settings.php:208
+#: weather-settings/halloween-settings.php:123
+#: weather-settings/new-year-settings.php:61
+#: weather-settings/rainy-settings.php:72
+#: weather-settings/spring-settings.php:36
+#: weather-settings/summer-settings.php:55
+#: weather-settings/thanks-giving-settings.php:39
+#: weather-settings/valentine-settings.php:80
+msgid "3. Maximum Fall Size On page"
+msgstr "3. पृष्ठ पर अधिकतम गिरने का आकार"
+
+#: weather-settings/autumn-settings.php:49
+#: weather-settings/christmas-snow-settings.php:156
+#: weather-settings/halloween-settings.php:131
+#: weather-settings/new-year-settings.php:69
+#: weather-settings/rainy-settings.php:80
+#: weather-settings/spring-settings.php:44
+#: weather-settings/summer-settings.php:63
+#: weather-settings/thanks-giving-settings.php:47
+#: weather-settings/valentine-settings.php:88
+msgid "4. Falls On page"
+msgstr "4. पेज पर गिरना"
+
+#: weather-settings/autumn-settings.php:57
+#: weather-settings/christmas-snow-settings.php:164
+#: weather-settings/halloween-settings.php:139
+#: weather-settings/new-year-settings.php:77
+#: weather-settings/rainy-settings.php:88
+#: weather-settings/spring-settings.php:52
+#: weather-settings/summer-settings.php:71
+#: weather-settings/thanks-giving-settings.php:55
+#: weather-settings/valentine-settings.php:96
+msgid "5. Falls Speed On page"
+msgstr "5. पेज पर गिरने की गति"
+
+#: weather-settings/christmas-snow-settings.php:7
+msgid "Christmas Fall Types"
+msgstr "क्रिसमस गिरने के प्रकार"
+
+#: weather-settings/christmas-snow-settings.php:11
+msgid "Christmas Effect"
+msgstr "क्रिसमस प्रभाव"
+
+#: weather-settings/christmas-snow-settings.php:13
+msgid "Snowfall Master"
+msgstr "स्नोफ़ोल मास्टर"
+
+#: weather-settings/christmas-snow-settings.php:18
+msgid "Christmas Effect Settings"
+msgstr "क्रिसमस प्रभाव सेटिंग्स"
+
+#: weather-settings/christmas-snow-settings.php:26
+msgid "1. Christmas balls"
+msgstr "1. क्रिसमस की गेंदें"
+
+#: weather-settings/christmas-snow-settings.php:30
+msgid "Select Christmas Falling Ball"
+msgstr "क्रिसमस गिरने गेंद का चयन करें"
+
+#: weather-settings/christmas-snow-settings.php:33
+msgid "Ball 1"
+msgstr "गेंद 1"
+
+#: weather-settings/christmas-snow-settings.php:34
+msgid "Ball 2"
+msgstr "गेंद 2"
+
+#: weather-settings/christmas-snow-settings.php:35
+msgid "Ball 3"
+msgstr "गेंद 3"
+
+#: weather-settings/christmas-snow-settings.php:46
+msgid "2. Christmas bells"
+msgstr "2. क्रिसमस घंटी"
+
+#: weather-settings/christmas-snow-settings.php:50
+msgid "Select Christmas Falling Bell"
+msgstr "क्रिसमस गिरने वाले घंटी का चयन करें"
+
+#: weather-settings/christmas-snow-settings.php:53
+msgid "Bell 1"
+msgstr "घंटी 1"
+
+#: weather-settings/christmas-snow-settings.php:54
+msgid "Bell 2"
+msgstr "घंटी 2"
+
+#: weather-settings/christmas-snow-settings.php:55
+msgid "Bell 3"
+msgstr "घंटी 3"
+
+#: weather-settings/christmas-snow-settings.php:65
+msgid "3. Christmas Candy"
+msgstr "3. क्रिसमस कैंडी"
+
+#: weather-settings/christmas-snow-settings.php:69
+msgid "Select Christmas Falling Candy"
+msgstr "क्रिसमस कैंडी का चयन करें"
+
+#: weather-settings/christmas-snow-settings.php:72
+msgid "Candy 1"
+msgstr "कैंडी 1"
+
+#: weather-settings/christmas-snow-settings.php:73
+msgid "Candy 2"
+msgstr "कैंडी 2"
+
+#: weather-settings/christmas-snow-settings.php:74
+msgid "Candy 3"
+msgstr "कैंडी 3"
+
+#: weather-settings/christmas-snow-settings.php:85
+msgid "4. Christmas Gift"
+msgstr "4. क्रिसमस उपहार"
+
+#: weather-settings/christmas-snow-settings.php:89
+msgid "Select Christmas Falling Gift"
+msgstr "क्रिसमस उपहार का चयन करें"
+
+#: weather-settings/christmas-snow-settings.php:92
+msgid "Gift 1"
+msgstr "उपहार 1"
+
+#: weather-settings/christmas-snow-settings.php:93
+msgid "Gift 2"
+msgstr "उपहार 2"
+
+#: weather-settings/christmas-snow-settings.php:94
+msgid "Gift 3"
+msgstr "उपहार 3"
+
+#: weather-settings/christmas-snow-settings.php:104
+msgid "5. Christmas Snowman"
+msgstr "5. क्रिसमस स्नोमैन"
+
+#: weather-settings/christmas-snow-settings.php:108
+msgid "Select Christmas Falling Snowman"
+msgstr "क्रिसमस स्नोमैन का चयन करें"
+
+#: weather-settings/christmas-snow-settings.php:111
+msgid "Snowman 1"
+msgstr "स्नोमैन 1"
+
+#: weather-settings/christmas-snow-settings.php:112
+msgid "Snowman 2"
+msgstr "स्नोमैन 2"
+
+#: weather-settings/christmas-snow-settings.php:113
+msgid "Snowman 3"
+msgstr "स्नोमैन 3"
+
+#: weather-settings/christmas-snow-settings.php:123
+msgid "6. Christmas Snow Flake"
+msgstr "6. क्रिसमस स्नोफ्लेक"
+
+#: weather-settings/christmas-snow-settings.php:127
+msgid "Select Christmas Falling Snow Flake"
+msgstr "क्रिसमस स्नोफ्लेक का चयन करें"
+
+#: weather-settings/christmas-snow-settings.php:130
+msgid "Snow Flake 1"
+msgstr "हिमपात 1"
+
+#: weather-settings/christmas-snow-settings.php:131
+msgid "Snow Flake 2"
+msgstr "हिमपात 2"
+
+#: weather-settings/christmas-snow-settings.php:132
+msgid "Snow Flake 3"
+msgstr "हिमपात 3"
+
+#: weather-settings/christmas-snow-settings.php:176
+msgid "Snowfall Master Settings"
+msgstr "स्नोफ़ोल मास्टर सेटिंग्स"
+
+#: weather-settings/christmas-snow-settings.php:179
+msgid "A. Round Type"
+msgstr "अ. गोल प्रकार"
+
+#: weather-settings/christmas-snow-settings.php:183
+#: weather-settings/christmas-snow-settings.php:224
+msgid "Yes"
+msgstr "हाँ"
+
+#: weather-settings/christmas-snow-settings.php:185
+#: weather-settings/christmas-snow-settings.php:226
+msgid "No"
+msgstr "नहीं"
+
+#: weather-settings/christmas-snow-settings.php:190
+msgid "1. Fall Type"
+msgstr "1. गिरने का प्रकार"
+
+#: weather-settings/christmas-snow-settings.php:194
+#: weather-settings/winter-settings.php:21
+msgid "Round"
+msgstr "गोल"
+
+#: weather-settings/christmas-snow-settings.php:196
+#: weather-settings/winter-settings.php:23
+msgid "Square"
+msgstr "वर्ग"
+
+#: weather-settings/christmas-snow-settings.php:220
+msgid "B. Shadows Type"
+msgstr "ब. छाया प्रकार"
+
+#: weather-settings/christmas-snow-settings.php:231
+msgid "1. Show Falls Shadow"
+msgstr "1. गिरने छाया दिखाओ"
+
+#: weather-settings/christmas-snow-settings.php:235
+msgid "Show"
+msgstr "प्रदर्शन"
+
+#: weather-settings/christmas-snow-settings.php:237
+msgid "Hide"
+msgstr "छिपाना"
+
+#: weather-settings/christmas-snow-settings.php:241
+msgid "2. Flakes On Page"
+msgstr "2. पेज पर फ्लेक्स"
+
+#: weather-settings/halloween-settings.php:5
+msgid "Halloween Effect Settings"
+msgstr "हेलोवीन प्रभाव सेटिंग्स"
+
+#: weather-settings/halloween-settings.php:13
+msgid "1. Halloween Ghost"
+msgstr "1. हेलोवीन भूत"
+
+#: weather-settings/halloween-settings.php:18
+msgid "Select Halloween Falling Ghost"
+msgstr "हेलोवीन फ्लाइंग घोस्ट का चयन करें"
+
+#: weather-settings/halloween-settings.php:21
+msgid "Ghost 1"
+msgstr "घोस्ट 1"
+
+#: weather-settings/halloween-settings.php:32
+msgid "2. Halloween Bats"
+msgstr "2. हेलोवीन चमगादड़"
+
+#: weather-settings/halloween-settings.php:36
+msgid "Select Halloween Falling Bats"
+msgstr "हेलोवीन गिरने चमगादड़ का चयन करें"
+
+#: weather-settings/halloween-settings.php:39
+msgid "Bats 1"
+msgstr "चमगादड़ 1"
+
+#: weather-settings/halloween-settings.php:49
+msgid "3. Halloween Moon"
+msgstr "3. हेलोवीन चंद्रमा"
+
+#: weather-settings/halloween-settings.php:53
+msgid "Select Halloween Falling Moon"
+msgstr "हेलोवीन गिरने चंद्रमा का चयन करें"
+
+#: weather-settings/halloween-settings.php:56
+msgid "Moon 1"
+msgstr "चंद्रमा 1"
+
+#: weather-settings/halloween-settings.php:66
+msgid "4. Halloween Pumpkin"
+msgstr "4. हेलोवीन कद्दू"
+
+#: weather-settings/halloween-settings.php:70
+msgid "Select Halloween Falling Pumpkin"
+msgstr "हेलोवीन गिरने कद्दू का चयन करें"
+
+#: weather-settings/halloween-settings.php:73
+msgid "Pumpkin 1"
+msgstr "कद्दू 1"
+
+#: weather-settings/halloween-settings.php:83
+msgid "5. Halloween Web"
+msgstr "5. हेलोवीन वेब"
+
+#: weather-settings/halloween-settings.php:87
+msgid "Select Halloween Falling Web"
+msgstr "हेलोवीन गिरने वेब का चयन करें"
+
+#: weather-settings/halloween-settings.php:90
+msgid "Web 1"
+msgstr "वेब 1"
+
+#: weather-settings/halloween-settings.php:100
+msgid "6. Halloween Witch"
+msgstr "6. हेलोवीन चुड़ैल"
+
+#: weather-settings/halloween-settings.php:104
+msgid "Select Halloween Falling Witch"
+msgstr "हेलोवीन फ्लाइंग चुड़ैल का चयन करें"
+
+#: weather-settings/halloween-settings.php:107
+msgid "Witch 1"
+msgstr "चुड़ैल 1"
+
+#: weather-settings/new-year-settings.php:5
+msgid "New Year Effect Settings"
+msgstr "नया साल प्रभाव सेटिंग्स"
+
+#: weather-settings/new-year-settings.php:13
+msgid "1. New Year Balloon"
+msgstr "1. नया साल गुब्बारा"
+
+#: weather-settings/new-year-settings.php:18
+msgid "Select New Year Falling Balloon"
+msgstr "नया साल गिरने वाला गुब्बारा चुनें"
+
+#: weather-settings/new-year-settings.php:21
+msgid "Newyear Balloon 1"
+msgstr "नया साल गुब्बारा 1"
+
+#: weather-settings/new-year-settings.php:22
+msgid "Newyear Balloon 2"
+msgstr "नया साल गुब्बारा 2"
+
+#: weather-settings/new-year-settings.php:23
+msgid "Newyear Balloon 3"
+msgstr "नया साल गुब्बारा 3"
+
+#: weather-settings/new-year-settings.php:34
+msgid "2. New Year Sticker"
+msgstr "2. नया साल स्टिकर"
+
+#: weather-settings/new-year-settings.php:39
+msgid "Select New Year Falling Sticker"
+msgstr "नया साल गिरने स्टिकर का चयन करें"
+
+#: weather-settings/new-year-settings.php:42
+msgid "Newyear Sticker 1"
+msgstr "नया साल स्टिकर 1"
+
+#: weather-settings/new-year-settings.php:43
+msgid "Newyear Sticker 2"
+msgstr "नया साल स्टिकर 2"
+
+#: weather-settings/rainy-settings.php:5
+msgid "Rain Effect Settings"
+msgstr "वर्षा प्रभाव सेटिंग्स"
+
+#: weather-settings/rainy-settings.php:13
+msgid "1. Rainy Umbrella"
+msgstr "1. बरसात छाता"
+
+#: weather-settings/rainy-settings.php:18
+msgid "Select Rain Falling Umbrella"
+msgstr "वर्षा गिरने छाता का चयन करें"
+
+#: weather-settings/rainy-settings.php:21
+msgid "Umbrella 1"
+msgstr "छाता 1"
+
+#: weather-settings/rainy-settings.php:32
+msgid "2. Rainy Drops"
+msgstr "2. बरसात की बूंदें"
+
+#: weather-settings/rainy-settings.php:36
+msgid "Select Rain Falling Drops"
+msgstr "वर्षा गिरने वाली बूंदो का चयन करें"
+
+#: weather-settings/rainy-settings.php:39
+msgid "Drops 1"
+msgstr "बूंद 1"
+
+#: weather-settings/rainy-settings.php:49
+msgid "3. Rainy Cloud"
+msgstr "3. बरसात के बादल"
+
+#: weather-settings/rainy-settings.php:53
+msgid "Select Rain Falling Cloud"
+msgstr "वर्षा गिरने बादल का चयन करें"
+
+#: weather-settings/rainy-settings.php:56
+msgid "Cloud 1"
+msgstr "बादल"
+
+#: weather-settings/spring-settings.php:5
+msgid "Spring Effect Settings"
+msgstr "वसंत प्रभाव सेटिंग्स"
+
+#: weather-settings/spring-settings.php:13
+msgid "1. Spring Leaves"
+msgstr "1. वसंत पत्तियां"
+
+#: weather-settings/spring-settings.php:17
+msgid "Select spring Falling Leaf"
+msgstr "वसंत गिरने वाले पत्ता का चयन करें"
+
+#: weather-settings/spring-settings.php:20
+msgid "Spring Leaf 1"
+msgstr "वसंत पत्ता 1"
+
+#: weather-settings/spring-settings.php:22
+msgid "For More Spring Leaves Buy Now"
+msgstr "अधिक वसंत पत्तियों के लिए अब खरीदें"
+
+#: weather-settings/summer-settings.php:5
+msgid "Summer Effect Settings"
+msgstr "ग्रीष्मकालीन प्रभाव सेटिंग्स"
+
+#: weather-settings/summer-settings.php:13
+msgid "1. Summer Drink"
+msgstr "1. ग्रीष्मकालीन पेय"
+
+#: weather-settings/summer-settings.php:18
+msgid "Select Summer Falling Drink"
+msgstr "ग्रीष्मकालीन गिरने वाले पेय का चयन करें"
+
+#: weather-settings/summer-settings.php:21
+msgid "Drink 1"
+msgstr "पेय 1"
+
+#: weather-settings/summer-settings.php:32
+msgid "2. Summer Sun"
+msgstr "2. ग्रीष्मकालीन सूर्य"
+
+#: weather-settings/summer-settings.php:36
+msgid "Select summer Falling Sun"
+msgstr "गर्मी गिरने सूर्य का चयन करें"
+
+#: weather-settings/summer-settings.php:39
+msgid "Sun 1"
+msgstr "सूर्य 1"
+
+#: weather-settings/thanks-giving-settings.php:5
+msgid "Thanks Giving Effect Settings"
+msgstr "थैंक्सगिविंग प्रभाव सेटिंग्स"
+
+#: weather-settings/thanks-giving-settings.php:13
+msgid "1. Thanks Giving Turkey "
+msgstr "1. थैंक्सगिविंग तुर्की "
+
+#: weather-settings/thanks-giving-settings.php:18
+msgid "Select Thanks Giving Falling Turkey"
+msgstr "थैंक्सगिविंग गिरने तुर्की का चयन करें"
+
+#: weather-settings/thanks-giving-settings.php:21
+msgid "Turkey 1"
+msgstr "तुर्की 1"
+
+#: weather-settings/thanks-giving-settings.php:23
+msgid "For More Falls Turkey Buy Now"
+msgstr "अधिक फॉल्स तुर्की के लिए अब खरीदें"
+
+#: weather-settings/valentine-settings.php:5
+msgid "Valentine Effect Settings"
+msgstr "वेलेंटाइन प्रभाव सेटिंग्स"
+
+#: weather-settings/valentine-settings.php:13
+msgid "1. Valentine Rose"
+msgstr "1. वेलेंटाइन गुलाब"
+
+#: weather-settings/valentine-settings.php:18
+msgid "Select Valentine Falling Rose"
+msgstr "वेलेंटाइन गिरने गुलाब का चयन करें"
+
+#: weather-settings/valentine-settings.php:21
+msgid "Red Rose 1"
+msgstr "लाल गुलाब 1"
+
+#: weather-settings/valentine-settings.php:22
+msgid "Pink Rose"
+msgstr "गुलाबी गुलाब"
+
+#: weather-settings/valentine-settings.php:23
+msgid "Yellow Rose 1"
+msgstr "पीला गुलाब 1"
+
+#: weather-settings/valentine-settings.php:24
+msgid "Yellow Rose 2"
+msgstr "पीला गुलाब 2"
+
+#: weather-settings/valentine-settings.php:35
+msgid "2. Valentine Balloon"
+msgstr "2. वेलेंटाइन गुब्बारा"
+
+#: weather-settings/valentine-settings.php:40
+msgid "Select Valentine Falling Balloon"
+msgstr "वेलेंटाइन गिरने गुब्बारे का चयन करें"
+
+#: weather-settings/valentine-settings.php:43
+msgid "Balloon 1"
+msgstr "गुब्बारे 1"
+
+#: weather-settings/valentine-settings.php:54
+msgid "3. Valentine Heart"
+msgstr "3. वेलेंटाइन दिल"
+
+#: weather-settings/valentine-settings.php:59
+msgid "Select Valentine Falling Heart"
+msgstr "वेलेंटाइन गिरने दिल का चयन करें"
+
+#: weather-settings/valentine-settings.php:62
+msgid "Heart 1"
+msgstr "दिल 1"
+
+#: weather-settings/valentine-settings.php:63
+msgid "Heart 2"
+msgstr "दिल 2"
+
+#: weather-settings/winter-settings.php:3
+msgid "Winter Falls Types"
+msgstr "शीतकालीन फॉल्स के प्रकार"
+
+#: weather-settings/winter-settings.php:7
+msgid "Snows"
+msgstr "बर्फ"
+
+#: weather-settings/winter-settings.php:9
+msgid "Snows Flacks"
+msgstr "हिमपात"
+
+#: weather-settings/winter-settings.php:15
+msgid "1. Snow Falls Settings"
+msgstr "1. स्नो फॉल्स सेटिंग्स"
+
+#: weather-settings/winter-settings.php:17
+msgid "A. Ice Cube Settings"
+msgstr "अ. आइस क्यूब सेटिंग्स"
+
+#: weather-settings/winter-settings.php:27
+msgid "B. Minimum Snow Size On page"
+msgstr "ब. पृष्ठ पर न्यूनतम बर्फ आकार"
+
+#: weather-settings/winter-settings.php:35
+msgid "C. Maximum Snow Size On page"
+msgstr "स. पृष्ठ पर अधिकतम हिम आकार"
+
+#: weather-settings/winter-settings.php:43
+msgid "D. Snow Flakes Count"
+msgstr "द. स्नोफ्लेक्स गिनती"
+
+#: weather-settings/winter-settings.php:55
+msgid "2. Falling Snows Flacks Settings"
+msgstr "2. गिरती हिमपात सेटिंग्स"
+
+#: weather-settings/winter-settings.php:57
+msgid "A. Minimum Snows Flacks Size On page"
+msgstr "अ. पृष्ठ पर न्यूनतम बर्फ आकार"
+
+#: weather-settings/winter-settings.php:65
+msgid "B. Maximum Snows Flacks Size On page"
+msgstr "ब. पृष्ठ पर अधिकतम हिमपात आकार"
+
+#: weather-settings/winter-settings.php:73
+msgid "C. Snows Flacks Falls Time Duration"
+msgstr "स. हिमपात फॉल्स समय अवधि"
+
+#: weather-settings/winter-settings.php:81
+msgid "D. Select Flacks Color"
+msgstr "द. फ्लेक्स रंग का चयन करें"
+
+#~ msgid "Weather Effect Settings"
+#~ msgstr "वेदर इफ्फेक्ट सेटिंग्स"
+
+#~ msgid "Snow 2"
+#~ msgstr "बर्फ 2"
+
+#~ msgid "Snow 3"
+#~ msgstr "बर्फ 3"
+
+#~ msgid "Winter Snows"
+#~ msgstr "शीतकालीन स्नोज़"
+
+#~ msgid "Winter Falling"
+#~ msgstr "शीतकालीन गिरना"

@@ -1,0 +1,83 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M512.085 168.021c-116.873 0-211.968 91.324-211.968 203.571 0 23.415 4.045 46.234 12.049 67.908l201.199 416.478 183.040-383.932c0.29-0.734 0.631-1.451 1.041-2.15l14.234-29.867c8.226-22.511 12.22-45.193 12.22-68.437-0.017-112.247-95.027-203.571-211.814-203.571zM513.98 459.657c-45.312 0-82.193-36.864-82.193-82.176s36.881-82.176 82.193-82.176c45.312 0 82.176 36.864 82.176 82.176s-36.864 82.176-82.176 82.176z"
+				],
+				"grid": 0,
+				"tags": [
+					"pin-1"
+				]
+			},
+			"properties": {
+				"order": 7,
+				"id": 1,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "pin-1",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M315.507 0c-173.961 0-315.507 135.932-315.507 303.008 0 34.853 6.021 68.817 17.935 101.079l299.452 619.912 272.449-571.469c0.432-1.092 0.94-2.159 1.55-3.201l21.186-44.455c12.244-33.507 18.189-67.267 18.189-101.867-0-167.076-141.419-303.008-315.253-303.008zM318.327 434.063c-67.445 0-122.341-54.871-122.341-122.316s54.896-122.316 122.341-122.316c67.445 0 122.316 54.871 122.316 122.316s-54.871 122.316-122.316 122.316z"
+				],
+				"width": 631,
+				"grid": 0,
+				"tags": [
+					"pin-nopad-1"
+				]
+			},
+			"properties": {
+				"order": 8,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "pin-nopad-1",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 1
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "iMapper",
+		"url": "",
+		"designer": "Shindiri Studio",
+		"designerURL": "http://www.shindiristudio.com/"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"fontPref": {
+			"prefix": "iMapper-",
+			"metadata": {
+				"fontFamily": "iMapper",
+				"majorVersion": 1,
+				"minorVersion": 0,
+				"fontURL": "",
+				"designer": "Shindiri Studio",
+				"designerURL": "http://www.shindiristudio.com/"
+			},
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"postfix": "",
+			"showMetadata": true,
+			"showVersion": true,
+			"resetPoint": 58880
+		},
+		"imagePref": {},
+		"historySize": 100,
+		"showCodes": true,
+		"search": ""
+	}
+}
