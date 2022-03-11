@@ -269,3 +269,6 @@ add_action('wp_ajax_nopriv_find_addresses', '\MatrixHive\Address::findAddress');
 
 add_action('wp_ajax_get_products',        '\MatrixHive\Products::findProducts');
 add_action('wp_ajax_nopriv_get_products', '\MatrixHive\Products::findProducts');
+
+add_action('wp_ajax_get_quotation',        '\MatrixHive\Quotation::getQuotation');
+add_action('wp_ajax_nopriv_get_quotation', '\MatrixHive\Quotation::getQuotation');

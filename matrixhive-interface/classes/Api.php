@@ -35,8 +35,8 @@ class Api{
 
         $headers = array_merge($headersArray,$headers);
 		
-		echo "<pre>";
-		var_dump($url);
+		// echo "<pre>";
+		// var_dump($url);
 
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
