@@ -4,7 +4,6 @@ use \MatrixHive\Api;
 use \MatrixHive\Session;
 class Login{
     public static function login(){
-        global $wp_session;
         $response = ['type' => 'error' , 'message' => 'Invalid Credentials'];
         if(isset($_POST['username']) && isset($_POST['password'])){
             $params = [
@@ -16,7 +15,7 @@ class Login{
             $result = json_decode($result['response'],true);
             
             if(!empty($result['success']) && $result['success'] && !empty($result['token'])){
-                $wp_session['estimate_token'] = $result['token'];
+                
                 Session::set('token',$result['token']);
                 $response = ['type' => 'success' , 'message' => 'Login successful'];
             }

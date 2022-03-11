@@ -30,7 +30,14 @@ class Api{
 		$headersArray = array(
 			'Content-Type:application/json',
 		);
+
+		self::setAuthToken($headersArray);
+
         $headers = array_merge($headersArray,$headers);
+		
+		echo "<pre>";
+		var_dump($url);
+
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 		curl_setopt($ch, CURLOPT_URL,$url);
@@ -53,6 +60,9 @@ class Api{
 		$headersArray = array(
 			'Content-Type:application/json',
 		);
+		
+		self::setAuthToken($headersArray);
+
         $headers = array_merge($headersArray,$headers);
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
@@ -80,7 +90,12 @@ class Api{
 		$headersArray = array(
 			'Content-Type:application/json',
 		);
+		
+		self::setAuthToken($headersArray);
+
         $headers = array_merge($headersArray,$headers);
+
+		
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_URL, $url);
@@ -93,5 +108,12 @@ class Api{
 		$result['curl_errno']= curl_errno($ch);
 		
 		return $result;
+	}
+
+	public static function setAuthToken(&$headers){
+		$token = Session::get('token',false);
+		if($token){
+			$headers[] = "Authorization: Bearer $token";
+		}
 	}
 }

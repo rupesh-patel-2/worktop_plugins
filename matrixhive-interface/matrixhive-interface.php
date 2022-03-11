@@ -236,6 +236,7 @@ function my_settings_init() {
         );
 
         register_setting( 'sample-page', 'getaddress_io_key' );
+
 		
 }
 
@@ -265,3 +266,6 @@ add_action('wp_ajax_nopriv_estimate_login', '\MatrixHive\Login::Login');
 add_action('wp_ajax_find_addresses',        '\MatrixHive\Address::findAddress');
 add_action('wp_ajax_nopriv_find_addresses', '\MatrixHive\Address::findAddress');
 
+
+add_action('wp_ajax_get_products',        '\MatrixHive\Products::findProducts');
+add_action('wp_ajax_nopriv_get_products', '\MatrixHive\Products::findProducts');
