@@ -272,3 +272,12 @@ add_action('wp_ajax_nopriv_get_products', '\MatrixHive\Products::findProducts');
 
 add_action('wp_ajax_get_quotation',        '\MatrixHive\Quotation::getQuotation');
 add_action('wp_ajax_nopriv_get_quotation', '\MatrixHive\Quotation::getQuotation');
+
+add_action('wp_ajax_estimation_data',        '\MatrixHive\Products::estimateData');
+add_action('wp_ajax_nopriv_estimation_data', '\MatrixHive\Products::estimateData');
+
+add_action('wp_ajax_save_estimation',        '\MatrixHive\Estimations::saveEstimation');
+add_action('wp_ajax_nopriv_save_estimation', '\MatrixHive\Estimations::saveEstimation');
+
+add_action('wp_ajax_estimation_details',        '\MatrixHive\Estimations::getDetails');
+add_action('wp_ajax_nopriv_estimation_details', '\MatrixHive\Estimations::getDetails');
