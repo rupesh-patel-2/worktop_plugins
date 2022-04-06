@@ -281,3 +281,6 @@ add_action('wp_ajax_nopriv_save_estimation', '\MatrixHive\Estimations::saveEstim
 
 add_action('wp_ajax_estimation_details',        '\MatrixHive\Estimations::getDetails');
 add_action('wp_ajax_nopriv_estimation_details', '\MatrixHive\Estimations::getDetails');
+
+add_action('wp_ajax_estimation_print',        '\MatrixHive\Estimations::print');
+add_action('wp_ajax_nopriv_estimation_print', '\MatrixHive\Estimations::print');

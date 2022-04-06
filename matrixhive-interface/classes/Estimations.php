@@ -34,5 +34,23 @@ Class Estimations{
         exit;
     }
 
+    public static function print(){
+
+       // echo "here";exit;
+        
+        $result = Api::get('api/print_estimation/'.$_GET['id']);
+        //var_dump($result['headers'] );exit;
+        if($result['http_status'] == 200){
+            header("Cache-Control: maxage=1");
+            header("Pragma: public");
+            header("Content-type: application/pdf");
+            header("Content-Disposition: inline; filename=Estimate.pdf");
+            header("Content-Description: PHP Generated Data");
+            header("Content-Transfer-Encoding: binary");
+            echo $result['response'];
+        }
+        exit;
+    }
+
     
 }
