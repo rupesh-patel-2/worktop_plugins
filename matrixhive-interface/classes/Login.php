@@ -26,6 +26,25 @@ class Login{
         exit;
     }
 
+    public static function sendPasswordResetLink(){
+        $response = ['type' => 'error' , 'message' => 'Invalid Email'];
+        if(isset($_POST['email'])){
+            $params = [
+                'email' => $_POST['email']
+            ];
+            $result = Api::post('api/password/email',$params);
+            $result = json_decode($result['response'],true);
+            // var_dump($result);exit;
+            
+            if(!empty($result['type']) && $result['type']=='success'){
+                $response = ['type' => 'success' , 'message' => $result['message']];
+            }
+        }
+        header('Content-Type: application/json; charset=utf-8');
+        echo json_encode($response);
+        exit;
+    }
+
     public static function isLoggedIn(){
         return  Session::get('token',false) ? true : false;
     }

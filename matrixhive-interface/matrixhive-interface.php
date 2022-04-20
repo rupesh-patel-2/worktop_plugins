@@ -263,6 +263,9 @@ function getaddress_io_key_markup() {
 add_action('wp_ajax_estimate_login',        '\MatrixHive\Login::Login');
 add_action('wp_ajax_nopriv_estimate_login', '\MatrixHive\Login::Login');
 
+add_action('wp_ajax_estimate_send_password_reset_link',        '\MatrixHive\Login::sendPasswordResetLink');
+add_action('wp_ajax_nopriv_estimate_send_password_reset_link', '\MatrixHive\Login::sendPasswordResetLink');
+
 add_action('wp_ajax_find_addresses',        '\MatrixHive\Address::findAddress');
 add_action('wp_ajax_nopriv_find_addresses', '\MatrixHive\Address::findAddress');
 
@@ -272,6 +275,9 @@ add_action('wp_ajax_nopriv_get_products', '\MatrixHive\Products::findProducts');
 
 add_action('wp_ajax_get_quotation',        '\MatrixHive\Quotation::getQuotation');
 add_action('wp_ajax_nopriv_get_quotation', '\MatrixHive\Quotation::getQuotation');
+
+add_action('wp_ajax_request_extension',        '\MatrixHive\Quotation::requestExtension');
+add_action('wp_ajax_nopriv_request_extension', '\MatrixHive\Quotation::requestExtension');
 
 add_action('wp_ajax_estimation_data',        '\MatrixHive\Products::estimateData');
 add_action('wp_ajax_nopriv_estimation_data', '\MatrixHive\Products::estimateData');
