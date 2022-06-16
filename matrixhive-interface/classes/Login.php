@@ -17,6 +17,7 @@ class Login{
             if(!empty($result['success']) && $result['success'] && !empty($result['token'])){
                 
                 Session::set('token',$result['token']);
+                Session::set('user',$result['user']);
                 $response = ['type' => 'success' , 'message' => 'Login successful'];
             }
             $response['result'] = $result;
@@ -24,6 +25,23 @@ class Login{
         header('Content-Type: application/json; charset=utf-8');
         echo json_encode($response);
         exit;
+    }
+
+    public static function impersonate_login(){
+        $res = ['type' => 'error'];
+        if(isset($_GET['token'])){
+            $result = Api::get('api/impersonate_login?token='.$_GET['token']);
+            
+            $result = json_decode($result['response'],true);
+            if(!empty($result['success']) && $result['success'] && !empty($result['token'])){
+                
+                Session::set('token',$result['token']);
+                Session::set('user',$result['user']);
+                $response = ['type' => 'success' , 'message' => 'Login successful'];
+                $res = ['type' => 'success','token_data' => $result['token_data']];
+            }
+        }
+        return $res;
     }
 
     public static function sendPasswordResetLink(){

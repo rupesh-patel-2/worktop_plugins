@@ -52,5 +52,10 @@ Class Estimations{
         exit;
     }
 
+    public function confirmOrder(){
+        header('Content-Type: application/json; charset=utf-8');
+        $result = Api::post('api/confirm_order',$_POST);
+        echo $result['response'];exit;
+    }
     
 }

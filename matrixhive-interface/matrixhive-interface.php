@@ -1,17 +1,17 @@
 <?php
 /*
-Plugin Name: Matrixhive Interface
-Plugin URI: https://matrixhive.com 
-Description: Matrixhive Interface by MatrixHive will create a bridge between wordpress and MatrixHive Products.
-Version: 1.0.0
-Author: Rupesh Patel
-Author URI: https://matrixhive.com 
-Text Domain: matrixhive-interface
+Plugin Name: WortopWarehouse Interface
+Plugin URI: https://worktopwarehouse.co.uk/ 
+Description: WortopWarehouse Interface by WortopWarehouse will create a bridge between wordpress and WortopWarehouse Products.
+Version: 1.0.1
+Author: Darsh Kurmi
+Author URI: https://worktopwarehouse.co.uk/
+Text Domain: worktop-warehouse
 Domain Path: /
 License: GPL v3
 
-Matrixhive Interface
-Copyright (C) 2022-2029, Rupesh Patel, rupesh.patel@matrixhive.com
+WortopWarehouse Interface
+Copyright (C) 2022-2029, WortopWarehouse
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -290,3 +290,6 @@ add_action('wp_ajax_nopriv_estimation_details', '\MatrixHive\Estimations::getDet
 
 add_action('wp_ajax_estimation_print',        '\MatrixHive\Estimations::print');
 add_action('wp_ajax_nopriv_estimation_print', '\MatrixHive\Estimations::print');
+
+add_action('wp_ajax_confirm_order',        '\MatrixHive\Estimations::confirmOrder');
+add_action('wp_ajax_nopriv_confirm_order', '\MatrixHive\Estimations::confirmOrder');

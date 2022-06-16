@@ -24,7 +24,8 @@ Class Products{
         header('Content-Type: application/json; charset=utf-8');
         
         $params = [
-            'slug' => $_POST['slug']
+            'slug' => $_POST['slug'],
+            'estimation_id' => $_POST['estimation_id']
         ];
         $response = [];
         $result = Api::get('api/estimation_data',$params);
