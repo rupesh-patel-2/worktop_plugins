@@ -27,6 +27,7 @@ Class Products{
             'slug' => $_POST['slug'],
             'estimation_id' => $_POST['estimation_id']
         ];
+       
         $response = [];
         $result = Api::get('api/estimation_data',$params);
         if($result['http_status'] == 200){

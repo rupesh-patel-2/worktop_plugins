@@ -23,10 +23,10 @@ class Api{
 		$paramsStr = http_build_query($params);
 		$baseUrl =  $baseUrl === false ? self::inst()->getBaseApiUrl() : $baseUrl;
 		$url = $baseUrl.'/'.$endpoint;
+		
 		if(!empty($params)){
 			$url = $baseUrl.'/'.$endpoint.'?'.$paramsStr;
 		}
-		
 		$headersArray = array(
 			'Content-Type:application/json',
 		);
